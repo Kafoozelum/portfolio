@@ -1,0 +1,27 @@
+.banner {
+  height: 60vh !important;
+  display: flex;
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  position: relative;
+  min-height: 500px;
+}
+
+.banner h1 {
+  margin: 0;
+  padding-top: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.banner h2 {
+  font-size: 30px;
+  color: white;
+  opacity: .9;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
