@@ -16,3 +16,11 @@
 // const imagePath = (name) => images(name, true)
 
 console.log('Hello World from Webpacker')
+
+import 'bootstrap';
+
+import { loadDynamicText } from '../components/dynamic_text';
+loadDynamicText();
+
+
+
